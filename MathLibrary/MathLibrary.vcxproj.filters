@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Quaternions.cpp">
+      <Filter>Fichier source\Quat</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Fichier source\Vct\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Fichier source\Vct\3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrice3x3.inl">
+      <Filter>Fichier source\Matrice</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrice4x4.inl">
+      <Filter>Fichier source\Matrice</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.inl">
+      <Filter>Fichier source\Vct\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.inl">
+      <Filter>Fichier source\Vct\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrice3x3.h">
+      <Filter>Fichiers d%27en tete\Matrice</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrice4x4.h">
+      <Filter>Fichiers d%27en tete\Matrice</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternions.h">
+      <Filter>Fichiers d%27en tete\Quat</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Fichiers d%27en tete\Vct</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Fichiers d%27en tete\Vct</Filter>
+    </ClInclude>
+    <ClInclude Include="MathsLib.h">
+      <Filter>Fichiers d%27en tete</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fichier de ressources">
+      <UniqueIdentifier>{d308544c-871c-4f04-9e11-5915f4f63880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en tete">
+      <UniqueIdentifier>{926be8ec-64b9-4ea6-905e-d663e51f34a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source">
+      <UniqueIdentifier>{e52331ec-f982-4365-aada-47475503fbac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source\Vct">
+      <UniqueIdentifier>{65c238c8-5962-4b3a-b00c-247a962696a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source\Quat">
+      <UniqueIdentifier>{d55b029d-8195-484b-a316-38ce9e0579bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source\Matrice">
+      <UniqueIdentifier>{cc09a3ca-d93a-4513-8066-818d74b61cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source\Vct\3D">
+      <UniqueIdentifier>{37762a1e-5655-45ee-87ee-25fcc973e9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichier source\Vct\2D">
+      <UniqueIdentifier>{0e76d346-5571-4e4d-8ed4-8ce1690fe168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en tete\Matrice">
+      <UniqueIdentifier>{32863e40-2572-4eaf-ad2b-b10204c216c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en tete\Vct">
+      <UniqueIdentifier>{dc49e76d-8823-412d-9a3e-40b7c09be905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en tete\Quat">
+      <UniqueIdentifier>{f6ac8e1a-e6f0-4370-9ac8-bfd09cd53e7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Quaternions.inl">
+      <Filter>Fichier source\Quat</Filter>
+    </None>
+  </ItemGroup>
+</Project>
